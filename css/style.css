@@ -1,0 +1,45 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+}
+
+/* HEADER STYLES START */
+
+.container {
+  max-width: 870px;
+  margin: 0 auto;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    /* padding-top: 44px; */
+}
+
+.header-item {
+    margin-left: 24px;
+    list-style: none;
+}
+
+.header-link {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color: #bf7506;
+  text-decoration: none;
+}
+
+.link-active {
+  font-weight: 700;
+}
+
+.header-nav ul {
+    display: flex;
+}
